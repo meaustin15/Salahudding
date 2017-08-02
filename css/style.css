@@ -56,20 +56,28 @@ a:focus {
     font-weight: 400;
 }
 
+.navbar-default {
+    background-color: #c94f5d;
+
+}
+
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: #c94f5d;
 	
 }
 
 .navbar-brand {
     font-weight: 700;
+    
 }
 .navbar-brand {
   height: 40px;
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
+ 
 }
 
 .navbar-brand h1{
@@ -83,7 +91,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+ background-color: #c94f5d;
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -305,7 +313,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg2.jpg);
+	background: url(../img/wood.jpg);
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -360,7 +368,7 @@ hr {
 ============================ */
 
 #about{
-    background: url(../img/about.jpg);
+   background: url(../img/wood.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,15 +447,34 @@ color: rgb(201, 79, 93);
 --- Services
 ============================ */
 
+#service{
+   background: url(../img/wood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .service-icon {
 	margin-bottom: 20px;
 }	
+
+/* ===========================
+--- Shop
+============================ */
+
+.service-icon {
+	margin-bottom: 20px;
+}
 
 
 
 /* ===========================
 --- Contact
 ============================ */
+
+#cform{
+    background-color: rgb(201, 79, 93);
+}
 
 form#contact-form .form-group label {
 	text-align: left !important;
@@ -501,7 +528,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #cal{
-     padding-right: 40px;
+     padding-right: 26px;
 }
 
 .company-social a{
@@ -812,4 +839,23 @@ Parallax
 		font-size: 20px;
 	}
 	
+}
+
+.swiper-container {
+    width: 800px;
+    height: 200px;
+ 
+} 
+
+.swiper-slide {
+   background-color: purple;
+
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
 }
