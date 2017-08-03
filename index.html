@@ -8,6 +8,7 @@
 	<meta name="author" content="">
 
 	<title> Salahuddin & Son | House of Grooming </title>
+	<script src="bootstrap/js/bootstrap-modal.js"></script>
 
 
 	<!-- Bootstrap Core CSS -->
@@ -15,9 +16,7 @@
 
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="style.css" href="node_modules/bootstrap/dist/bootstrap-theme.css">
-	<script src="node_modules/jquery/dist/jquery.js">
-
-	</script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="scripts.js"></script>
 	<link rel="stylesheet" href="node_modules/animate.css/animate.css">
@@ -476,30 +475,14 @@
 								<p class="subtitle">Children: $10</p>
 								<p class="subtitle">Senior: $10</p>
 								<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
+								<button type="button" id="myBtn" class="btn btn-primary">Launch demo modal</button>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+
+
+
+
+
 							</div>
 						</div>
 					</div>
@@ -634,8 +617,29 @@
 			</div>
 
 		</div>
+		<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2>Modal Header</h2>
+			</div>
+			<div class="modal-body">
+				<p>Some text in the Modal Body</p>
+				<p>Some other text...</p>
+			</div>
+			<div class="modal-footer">
+				<h3>Modal Footer</h3>
+			</div>
+		</div>
+
+	</div>
 	</section>
 	<!-- /Section: shop -->
+
+	
 
 	<footer>
 		<div class="container">
