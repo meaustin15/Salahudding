@@ -32,3 +32,21 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+var choose;
+
+$(function() {
+    $( "#item" ).click(function() {
+        choose = 1;
+        
+    });
+
+   
+    $( "#add" ).click(function() {
+        if(choose > 0) {
+          $( "#addedtocart" ).toggle();
+          $("#addedtocart").fadeOut("slow");
+          choose = 0;
+        }
+    });
+});

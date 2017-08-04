@@ -77,11 +77,11 @@
 					<li><a href="#service">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="#shop">Shop</a></li>
-				
-						<div class="fa fa-shopping-cart cart">
-							<div class="bluedot"></div>
-						</div>
-					
+
+					<div class="fa fa-shopping-cart cart">
+						<div class="bluedot"></div>
+					</div>
+
 
 
 					</li>
@@ -636,11 +636,14 @@
 					<h4>AGE</h4>
 					<div class="list-group">
 
-						<button type="button" class="list-group-item list-group-item-action">Adult: $15</button>
-						<button type="button" class="list-group-item list-group-item-action">Children: $10</button>
-						<button type="button" class="list-group-item list-group-item-action">Senoir: $10</button>
+						<button id=item type="button" class="list-group-item list-group-item-action">Adult: $15</button>
+						<button id=item type="button" class="list-group-item list-group-item-action">Children: $10</button>
+						<button id=item type="button" class="list-group-item list-group-item-action">Senoir: $10</button>
 					</div>
-					<h5 id=addedtocart>SUCCESSFULLY ADDED TO CART</h5>
+					<h5 id=addedtocart style="display:none;">SUCCESSFULLY ADDED TO CART!</h5>
+					<button id=add onclick="success(addedtocart)" type="submit" class="btn btn-danger">
+                           <center> ADD TO CART</center> </button>
+
 					<button type="submit" class="btn btn-danger" id=contshop>
                            <center>CONTINUE SHOPPING</center> </button>
 					<button type="submit" class="btn btn-danger">
