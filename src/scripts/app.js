@@ -36,7 +36,17 @@ window.onclick = function(event) {
 var choose;
 
 $(function() {
-    $( "#item" ).click(function() {
+    $( "#item1" ).click(function() {
+        choose = 1;
+        
+    });
+
+    $( "#item2" ).click(function() {
+        choose = 1;
+        
+    });
+
+    $( "#item3" ).click(function() {
         choose = 1;
         
     });
@@ -46,6 +56,8 @@ $(function() {
         if(choose > 0) {
           $( "#addedtocart" ).toggle();
           $("#addedtocart").fadeOut("slow");
+          $("#bdot").show();
+          $("#carticon").show();
           choose = 0;
         }
     });
