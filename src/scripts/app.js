@@ -21,11 +21,6 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-contshop.onclick = function() {
-    modal.style.display = "none";
-}
-
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -63,6 +58,7 @@ $(function() {
     });
 });
 
+<<<<<<< HEAD
 //Slideshow
 
 var slideIndex = 1;
@@ -91,3 +87,41 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
+=======
+
+//CAROUSEL
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+$(document).ready(function(){
+  $('.your-class').slick({
+    setting-name: setting-value
+  });
+});
+		
+>>>>>>> 3260f1e3a1918f6a7995de058566364b2b8b5be1
