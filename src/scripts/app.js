@@ -58,7 +58,11 @@ $(function() {
     });
 });
 
+<<<<<<< HEAD
 //Slideshow
+=======
+//SlideShow in about
+>>>>>>> 1a9e405b1793e3d8873efa9297d6a3e1bdcde1cb
 
 var slideIndex = 1;
 showDivs(slideIndex);
@@ -86,3 +90,7 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-white";
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1a9e405b1793e3d8873efa9297d6a3e1bdcde1cb
