@@ -58,7 +58,7 @@ $(function() {
     });
 });
 
-//Slideshow
+//SlideShow in about
 
 var slideIndex = 1;
 showDivs(slideIndex);
