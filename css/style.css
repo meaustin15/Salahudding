@@ -367,6 +367,14 @@ hr {
 --- About
 ============================ */
 
+
+#about{
+    box-sizing: border-box;
+    padding: 2cm 6cm 3cm 5cm;
+}
+
+
+
 /*
 SLIDE SHOW
 */
