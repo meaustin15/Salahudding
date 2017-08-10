@@ -730,6 +730,10 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 --- Footer
 ============================ */
 
+span.glyphicon-link {
+    font-size: 5em;
+}
+
 footer {
 	text-align: center;
 	padding: 50px 0 ;
